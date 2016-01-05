@@ -7,3 +7,23 @@ e.g.
 ```java
 g.addEdge(1, 5);
 ```
+
+###Output.
+When running the program the output will look something like this.
+```java
+---------------
+Bipartite graph
+---------------
+0 1 1 1 0 0 0 0 
+0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 1 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 
+---------------
+ Maxflow is 3
+---------------
+```
+It will present you with a matrix with the connections between the nodes and the maximum flow between them.
